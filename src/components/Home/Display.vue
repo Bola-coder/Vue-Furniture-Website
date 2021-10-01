@@ -32,19 +32,16 @@ export default {
   align-items: center;
   padding: 40px;
   margin-top: 120px;
-  background: linear-gradient(rgb(114, 110, 110), rgb(44, 43, 43));
+  background: linear-gradient(rgb(114, 110, 110), rgb(66, 65, 65));
 }
 
 .display-text {
-  /* width: 400px; */
-  width: 80%;
+  width: 70%;
   text-align: left;
-  /* font-weight: bold; */
 }
 .display-text p {
-  /* text-align: left; */
-  font-size: 1.7rem;
-  line-height: 2.7rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   color: rgb(248, 242, 242);
 }
 .display-text button {
@@ -64,7 +61,7 @@ export default {
 }
 
 .display-image img {
-  width: 440px;
+  width: 400px;
   height: 400px;
   border-radius: 50%;
   box-shadow: 2px 1px 2px 4px rgb(199, 207, 199),

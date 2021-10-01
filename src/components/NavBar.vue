@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-    <div class="logo">
+    <div class="logo" @click="handleLogoClick">
       PlanckTops
     </div>
     <nav>
@@ -16,6 +16,11 @@
 export default {
   name: "NavBar",
   component: {},
+  methods: {
+    handleLogoClick() {
+      this.$router.push({ name: "Home" });
+    },
+  },
 };
 </script>
 
@@ -58,6 +63,7 @@ nav a:hover {
   background: rgb(187, 51, 78);
   border-radius: 15px;
   color: #fff;
-  /* transform: rotate(4px, 9px); */
+  /* text-decoration: underline;
+  transform: translateY(-5%); */
 }
 </style>

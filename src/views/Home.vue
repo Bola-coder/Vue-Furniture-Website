@@ -30,7 +30,6 @@ export default {
 .home {
   max-width: 100vw;
   height: 92vh;
-  /* background-image: url("../assets/carpenter.jpg"); */
   background-image: linear-gradient(
       to right bottom,
       rgba(68, 75, 67, 0.8),
@@ -82,6 +81,7 @@ button {
 }
 button:hover {
   transform: translateY(-2px);
+  opacity: 0.7;
 }
 
 @keyframes moveInLeft {

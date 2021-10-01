@@ -41,5 +41,6 @@ export default {
 .project-detail {
   letter-spacing: 3px;
   font-size: 12px;
+  color: #000;
 }
 </style>
