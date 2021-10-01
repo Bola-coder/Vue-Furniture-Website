@@ -40,11 +40,24 @@ export default {
 .banner h2 {
   text-align: center;
   font-size: 4.5rem;
+  text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   position: absolute;
-  left: 40%;
+  left: 35%;
   top: 40%;
-  transform: translate(-5%, -10%);
+  /* transform: translate(-5%, -10%); */
   color: #fff;
+  animation: moveInUp 1000ms ease-out;
+}
+
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>

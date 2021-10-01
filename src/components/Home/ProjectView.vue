@@ -21,6 +21,9 @@ export default {
   /* border: 3px solid black; */
   box-shadow: 4px 4px 5px rgba(44, 40, 40, 0.2);
 }
+.project:hover {
+  border-bottom: 4px solid rgb(189, 37, 37);
+}
 .project-image {
   width: 300px;
   height: 250px;
@@ -36,6 +39,7 @@ export default {
   font-size: 20px;
   color: #222;
   margin-bottom: 5px;
+  color: rgb(189, 37, 37);
 }
 
 .project-detail {

@@ -56,6 +56,12 @@ export default {
   cursor: pointer;
 }
 
+.display-text button:hover {
+  /* opacity: 0.8; */
+  background: #fff;
+  color: rgb(189, 37, 37);
+}
+
 .display-image {
   flex-basis: 50%;
 }
