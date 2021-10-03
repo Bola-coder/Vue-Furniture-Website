@@ -131,11 +131,43 @@ textarea:focus {
 button {
   margin-top: 10px;
   /* display: block; */
-  font-size: 1 rem;
+  font-size: 1rem;
   padding: 10px 20px;
   border-radius: 15px;
   border: 0;
   color: #fff;
   background: rgb(189, 37, 37);
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 60vh;
+  }
+
+  .banner h2 {
+    font-size: 4rem;
+    left: 30%;
+  }
+
+  form {
+    width: 650px;
+    padding: 10px;
+  }
+  label {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  input,
+  textarea {
+    padding: 15px;
+  }
+
+  button {
+    padding: 15px 20px;
+    font-size: 1.2rem;
+  }
 }
 </style>

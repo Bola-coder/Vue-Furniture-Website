@@ -68,4 +68,15 @@ main {
   color: rgb(189, 37, 37);
   font-style: oblique;
 }
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .header {
+    margin-top: 10%;
+  }
+
+  .header h2 {
+    font-size: 2.2rem;
+  }
+}
 </style>

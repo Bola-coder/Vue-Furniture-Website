@@ -88,4 +88,21 @@ h5 {
   color: rgb(189, 37, 37);
   opacity: 0.8;
 }
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+  .teams {
+    width: 600px;
+  }
+
+  .teams-main .image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .teams-sub {
+    width: 350px;
+  }
+}
 </style>

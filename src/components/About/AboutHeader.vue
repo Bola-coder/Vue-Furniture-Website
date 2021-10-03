@@ -62,4 +62,16 @@ span {
   padding: 0 10px;
   border-left: 5px solid rgb(189, 37, 37);
 }
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 90%;
+  }
+
+  .content p {
+    font-size: 20px;
+  }
+}
 </style>

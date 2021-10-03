@@ -51,4 +51,21 @@ export default {
   padding: 20px;
   letter-spacing: 2px;
 }
+
+/* Responsivesness */
+
+@media screen and (max-width: 768px) {
+  .service {
+    width: 650px;
+    text-align: left;
+  }
+
+  .service h2 {
+    font-size: 1.5rem;
+  }
+
+  .service p {
+    font-size: 1.1rem;
+  }
+}
 </style>

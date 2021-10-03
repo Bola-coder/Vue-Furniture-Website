@@ -1,7 +1,7 @@
 <template>
   <div class="block">
     <h3>Good furnitures brings out the real beauty of your homes</h3>
-    <div class="p">
+    <div class="project-block">
       <div class="projects" v-for="project in projects" :key="project.name">
         <ProjectView :project="project" />
       </div>
@@ -59,24 +59,45 @@ export default {
 </script>
 
 <style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .block {
   margin-top: 120px;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .block h3 {
   font-size: 2rem;
 }
-.p {
+.project-block {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  /* padding: 10px; */
   flex-wrap: wrap;
   margin-top: 40px;
 }
 .projects {
   padding: 20px;
   clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+  .block {
+    margin-top: 90px;
+    padding: 5px;
+  }
+
+  .block h3 {
+    font-size: 1.8rem;
+  }
+
+  .projects {
+    padding: 15px;
+  }
 }
 </style>

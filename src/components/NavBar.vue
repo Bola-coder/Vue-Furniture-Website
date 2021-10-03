@@ -3,22 +3,40 @@
     <div class="logo" @click="handleLogoClick">
       PlanckTops
     </div>
+
     <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/service">Services</router-link>
-      <router-link to="/contact">Contact</router-link>
+      <div class="desktop">
+        <router-link to="/">Home</router-link>
+        <router-link to="/about">About</router-link>
+        <router-link to="/service">Services</router-link>
+        <router-link to="/contact">Contact</router-link>
+      </div>
+      <div class="mobile">
+        <Hamburger @clicked="handleClicked" />
+      </div>
     </nav>
   </div>
 </template>
 
 <script>
+import Hamburger from "./Hamburger.vue";
 export default {
   name: "NavBar",
-  component: {},
+  components: { Hamburger },
+  data() {
+    return {
+      showMenu: false,
+    };
+  },
   methods: {
     handleLogoClick() {
       this.$router.push({ name: "Home" });
+    },
+
+    handleClicked(active) {
+      console.log(active);
+      active ? (this.showMenu = true) : (this.showMenu = false);
+      console.log(this.showMenu);
     },
   },
 };
@@ -50,6 +68,10 @@ nav {
   margin-right: 20px;
 }
 
+.mobile {
+  display: none;
+}
+
 nav a {
   padding: 4px 20px;
   text-decoration: none;
@@ -65,5 +87,22 @@ nav a:hover {
   color: #fff;
   /* text-decoration: underline;
   transform: translateY(-5%); */
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    padding: 5px;
+  }
+
+  /* .mobile img {
+    width: 60px;
+  } */
 }
 </style>

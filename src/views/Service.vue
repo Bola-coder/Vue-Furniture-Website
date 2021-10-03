@@ -88,4 +88,17 @@ export default {
     transform: translateY(0);
   }
 }
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 60vh;
+  }
+
+  .banner h2 {
+    font-size: 4rem;
+    left: 27%;
+  }
+}
 </style>

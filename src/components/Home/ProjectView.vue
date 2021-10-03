@@ -47,4 +47,15 @@ export default {
   font-size: 12px;
   color: #000;
 }
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+  .project-name {
+    font-size: 25px;
+  }
+  .project-detail {
+    font-size: 15px;
+  }
+}
 </style>

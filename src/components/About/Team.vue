@@ -62,4 +62,11 @@ export default {
 .header h3 span {
   color: rgba(189, 37, 37, 0.9);
 }
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .header {
+    margin-top: 10%;
+  }
+}
 </style>

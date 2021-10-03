@@ -123,4 +123,23 @@ button:hover {
     transform: translateY(0);
   }
 }
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .home {
+    height: 75vh;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+  button {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+}
 </style>

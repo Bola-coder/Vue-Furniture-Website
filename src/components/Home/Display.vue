@@ -73,4 +73,19 @@ export default {
   box-shadow: 2px 1px 2px 4px rgb(199, 207, 199),
     1px 2px 2px 3px rgb(218, 228, 218);
 }
+
+/* Resposiveness */
+@media screen and (max-width: 768px) {
+  .display {
+    padding: 20px;
+  }
+
+  .display-text p {
+    font-size: 1.3rem;
+  }
+  .display-image img {
+    width: 320px;
+    height: 320px;
+  }
+}
 </style>
