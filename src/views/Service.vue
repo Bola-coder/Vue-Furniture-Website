@@ -42,7 +42,7 @@ export default {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   position: absolute;
-  left: 30%;
+  left: 35%;
   top: 40%;
   color: #fff;
   animation: moveInUp 1000ms ease-out;
