@@ -1,12 +1,27 @@
 <template>
-  <NavBar />
+  <NavBar @hamClick="displayMobileMenu" />
+  <div class="hamburger-menu" v-if="displayMenu">
+    <HamburgerMenu />
+  </div>
   <router-view />
 </template>
 
 <script>
 import NavBar from "./components/NavBar.vue";
+import HamburgerMenu from "./components/HamburgerMenu.vue";
+
 export default {
-  components: { NavBar },
+  components: { NavBar, HamburgerMenu },
+  data() {
+    return {
+      displayMenu: false,
+    };
+  },
+  methods: {
+    displayMobileMenu(value) {
+      value ? (this.displayMenu = true) : (this.displayMenu = false);
+    },
+  },
 };
 </script>
 <style>

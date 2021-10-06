@@ -32,11 +32,9 @@ export default {
     handleLogoClick() {
       this.$router.push({ name: "Home" });
     },
-
     handleClicked(active) {
-      console.log(active);
       active ? (this.showMenu = true) : (this.showMenu = false);
-      console.log(this.showMenu);
+      this.$emit("hamClick", this.showMenu);
     },
   },
 };
@@ -92,6 +90,9 @@ nav a:hover {
 /* Responsiveness */
 
 @media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 20px;
+  }
   .desktop {
     display: none;
   }
