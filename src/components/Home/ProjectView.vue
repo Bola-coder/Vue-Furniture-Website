@@ -64,4 +64,12 @@ export default {
     padding: 15px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .project {
+    max-width: 280px;
+  }
+}
+@media screen and (max-width: 425px) {
+}
 </style>

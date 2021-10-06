@@ -155,4 +155,21 @@ button:hover {
     padding: 12px 15px;
   }
 }
+@media screen and (max-width: 375px) {
+  .home {
+    height: 65vh;
+  }
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  button {
+    font-size: 15px;
+    padding: 12px 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero-text h1 {
+    font-size: 2.1rem;
+  }
+}
 </style>

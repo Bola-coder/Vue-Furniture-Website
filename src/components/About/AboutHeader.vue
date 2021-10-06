@@ -10,10 +10,7 @@
         earum quis expedita mollitia quam culpa fugit aliquid optio quaerat sed
         facilis. Perspiciatis corporis voluptatum quasi aut, sed nemo animi vel
         nostrum nihil culpa pariatur voluptatem mollitia fugit aliquid magni rem
-        architecto porro musdam aliquam laborum! Amet illo esse facilis quidem
-        possimus sequi natus voluptate explicabo! Ea, tempora harum? Ea dicta
-        molestias, minus corporis magnam consequatur necessitatibus laborum.
-        Doloremque, repudiandae?
+        architecto porro muse?
       </p>
     </div>
   </main>
@@ -85,6 +82,20 @@ span {
   }
   .content p {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header h3 {
+    width: 60vw;
+    font-size: 1.7rem;
+  }
+
+  .content {
+    padding: 10px;
+    width: 100%;
+  }
+  .content p {
+    font-size: 22px;
   }
 }
 </style>

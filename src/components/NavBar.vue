@@ -106,4 +106,14 @@ nav a:hover {
     width: 60px;
   } */
 }
+
+@media screen and (max-width: 375px) {
+  .logo {
+    margin-left: 10px;
+    font-size: 1.7rem;
+  }
+  .mobile {
+    padding: 0;
+  }
+}
 </style>

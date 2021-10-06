@@ -78,4 +78,11 @@ p {
     font-size: 1.2rem;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .footer-links,
+  .footer-media {
+    padding: 10px;
+  }
+}
 </style>

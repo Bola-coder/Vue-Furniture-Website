@@ -115,4 +115,14 @@ button:active {
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .display {
+    padding: 5px;
+  }
+  .display-image img {
+    width: 280px;
+    height: 280px;
+  }
+}
 </style>

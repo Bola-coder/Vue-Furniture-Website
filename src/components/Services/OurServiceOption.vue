@@ -86,4 +86,10 @@ export default {
     padding: 10px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .service p {
+    padding: 5px;
+  }
+}
 </style>

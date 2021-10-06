@@ -185,4 +185,23 @@ button {
     width: 85vw;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .banner {
+    height: 60vh;
+  }
+
+  .banner h2 {
+    font-size: 2.7rem;
+    left: 11%;
+  }
+
+  .header h2 {
+    font-size: 1.7rem;
+  }
+  input,
+  textarea {
+    padding: 10px;
+  }
+}
 </style>

@@ -4,10 +4,10 @@
       <h2>Our Services</h2>
     </div>
     <OurServices />
-    <!-- <div class="call-to-action">
+    <div class="call-to-action">
       <h4>Let us transform your home into an unrecognizable heaven</h4>
       <button>Contact us</button>
-    </div> -->
+    </div>
   </main>
   <Footer />
 </template>
@@ -110,6 +110,17 @@ export default {
   .banner h2 {
     font-size: 4.2rem;
     left: 6%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner {
+    height: 60vh;
+  }
+
+  .banner h2 {
+    font-size: 3.3rem;
+    left: 8%;
   }
 }
 </style>

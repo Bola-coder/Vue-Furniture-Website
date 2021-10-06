@@ -124,4 +124,28 @@ h5 {
     width: 85%;
   }
 }
+@media screen and (max-width: 375px) {
+  .teams {
+    padding: 20px;
+    width: 80vw;
+    flex-direction: column;
+  }
+
+  .teams-main .image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .teams-main h3 {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .teams-sub {
+    text-align: left;
+    margin-top: 15px;
+    width: 85%;
+  }
+}
 </style>

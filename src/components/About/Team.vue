@@ -75,4 +75,10 @@ export default {
     font-size: 2.4rem;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .header h3 {
+    font-size: 2.2rem;
+  }
+}
 </style>

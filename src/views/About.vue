@@ -84,4 +84,15 @@ export default {
     left: 14%;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .banner {
+    height: 60vh;
+  }
+
+  .banner h2 {
+    font-size: 3.3rem;
+    left: 14%;
+  }
+}
 </style>
