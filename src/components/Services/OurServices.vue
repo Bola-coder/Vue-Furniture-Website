@@ -79,4 +79,10 @@ main {
     font-size: 2.2rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .header h2 {
+    font-size: 2.4rem;
+  }
+}
 </style>

@@ -60,7 +60,6 @@ main {
 .teams {
   width: 700px;
   padding: 10px;
-  /* border: 1px solid green; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -103,6 +102,26 @@ h5 {
 
   .teams-sub {
     width: 350px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .teams {
+    padding: 20px;
+    width: 80vw;
+    flex-direction: column;
+  }
+
+  .teams-main h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .teams-sub {
+    text-align: left;
+    margin-top: 15px;
+    width: 85%;
   }
 }
 </style>

@@ -10,9 +10,7 @@
         earum quis expedita mollitia quam culpa fugit aliquid optio quaerat sed
         facilis. Perspiciatis corporis voluptatum quasi aut, sed nemo animi vel
         nostrum nihil culpa pariatur voluptatem mollitia fugit aliquid magni rem
-        architecto porro molestiae in sunt et eaque dolorum, quam blanditiis!
-        Deleniti neque magni nam rerum reprehenderit quae optio saepe nemo omnis
-        vitae, eligendi quibusdam aliquam laborum! Amet illo esse facilis quidem
+        architecto porro musdam aliquam laborum! Amet illo esse facilis quidem
         possimus sequi natus voluptate explicabo! Ea, tempora harum? Ea dicta
         molestias, minus corporis magnam consequatur necessitatibus laborum.
         Doloremque, repudiandae?
@@ -72,6 +70,21 @@ span {
 
   .content p {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header h3 {
+    width: 65vw;
+    font-size: 2rem;
+  }
+
+  .content {
+    padding: 10px 15px;
+    width: 100%;
+  }
+  .content p {
+    font-size: 25px;
   }
 }
 </style>

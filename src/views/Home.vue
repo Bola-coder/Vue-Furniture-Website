@@ -8,21 +8,19 @@
       </div>
     </div>
   </div>
-  <!-- <About /> -->
   <Project />
   <Display />
   <Footer />
 </template>
 
 <script>
-import About from "./About.vue";
 import Project from "../components/Home/Project";
 import Display from "../components/Home/Display";
 import Footer from "../components/Footer";
 
 export default {
   name: "Home",
-  components: { About, Project, Display, Footer },
+  components: { Project, Display, Footer },
 };
 </script>
 
@@ -140,6 +138,21 @@ button:hover {
   button {
     font-size: 20px;
     margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero-text h1 {
+    font-size: 2.9rem;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 12px 15px;
   }
 }
 </style>

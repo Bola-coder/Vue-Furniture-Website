@@ -60,4 +60,22 @@ a:hover {
 p {
   color: #fff;
 }
+
+/* Responsiveness */
+@media screen and (max-width: 425px) {
+  .footer-content {
+    width: 90vw;
+    justify-content: space-between;
+  }
+
+  .footer-links,
+  .footer-media {
+    padding: 20px;
+  }
+
+  .footer-links a,
+  .footer-media a {
+    font-size: 1.2rem;
+  }
+}
 </style>

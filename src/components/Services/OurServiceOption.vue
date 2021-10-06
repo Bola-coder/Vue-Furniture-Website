@@ -68,4 +68,22 @@ export default {
     font-size: 1.1rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .service {
+    width: 80vw;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .service h2 {
+    font-size: 1.8rem;
+  }
+
+  .service p {
+    text-align: left;
+    padding: 10px;
+  }
+}
 </style>

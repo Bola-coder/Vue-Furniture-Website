@@ -25,7 +25,7 @@ export default {
           image: man1,
           role: "Chief Executive Officer",
           details:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eligendi quis modi recusandae voluptatum maxime, odio nesciunt, veritatis vel quisquam molestiae debitis quas! Ipsum dolores deleniti expedita, ad reprehenderit fugiat repellendus ipsa molestias odio sapiente dolorum error aperiam laborum sequi? Fugit amet libero eius quo illum enim et veniam sed?",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eligendi qiat repellendus ipsa molestias odio sapiente dolorum error aperiam laborum sequi? Fugit amet libero eius quo illum enim et veniam sed?",
         },
         {
           id: 2,
@@ -33,7 +33,7 @@ export default {
           image: guy,
           role: "Customer Care Lead",
           details:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eligendi quis modi recusandae voluptatum maxime, odio nesciunt, veritatis vel quisquam molestiae debitis quas! Ipsum dolores deleniti expedita, ad reprehenderit fugiat repellendus ipsa molestias odio sapiente dolorum error aperiam laborum sequi? Fugit amet libero eius quo illum enim et veniam sed?",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eligendi quis modi recusandae voluptatum maxime, odio nesciunt, veritatis vel quisquam molestiae debitis quas! Ipsum dolores deled?",
         },
         {
           id: 3,
@@ -41,7 +41,7 @@ export default {
           image: man1,
           role: "Lead Technical Officer",
           details:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eligendi quis modi recusandae voluptatum maxime, odio nesciunt, veritatis vel quisquam molestiae debitis quas! Ipsum dolores deleniti expedita, ad reprehenderit fugiat repellendus ipsa molestias odio sapiente dolorum error aperiam laborum sequi? Fugit amet libero eius quo illum enim et veniam sed?",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eligendi quis modi recusandae voluptatum maxime, odio nesciunt, veritatis vel quisquam molestiae debitis quas! Ipsum dolores deleniti t fugid?",
         },
       ],
     };
@@ -67,6 +67,12 @@ export default {
 @media screen and (max-width: 768px) {
   .header {
     margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header h3 {
+    font-size: 2.4rem;
   }
 }
 </style>

@@ -56,7 +56,8 @@ export default {
   cursor: pointer;
 }
 
-.display-text button:hover {
+.display-text button:hover,
+button:active {
   /* opacity: 0.8; */
   background: #fff;
   color: rgb(189, 37, 37);
@@ -86,6 +87,32 @@ export default {
   .display-image img {
     width: 320px;
     height: 320px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .display {
+    margin-top: 100px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .display-text {
+    order: 1;
+    margin-top: 20px;
+  }
+
+  .display-image {
+    margin-top: 20px;
+    order: 0;
+  }
+  .display-text p {
+    font-size: 1.3rem;
+  }
+  .display-text button {
+    padding: 12px 20px;
+    margin-bottom: 20px;
   }
 }
 </style>

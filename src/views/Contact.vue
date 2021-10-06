@@ -170,4 +170,19 @@ button {
     font-size: 1.2rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .banner {
+    height: 70vh;
+  }
+
+  .banner h2 {
+    font-size: 4.2rem;
+    left: 14%;
+  }
+
+  form {
+    width: 85vw;
+  }
+}
 </style>

@@ -100,4 +100,20 @@ export default {
     padding: 15px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .block {
+    margin-top: 70px;
+  }
+
+  .block h3 {
+    font-size: 1.4rem;
+  }
+
+  .project-block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 </style>
