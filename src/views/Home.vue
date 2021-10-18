@@ -143,7 +143,7 @@ button:hover {
 
 @media screen and (max-width: 425px) {
   .hero-text h1 {
-    font-size: 2.9rem;
+    font-size: 3rem;
   }
 
   .hero-text p {
@@ -160,7 +160,7 @@ button:hover {
     height: 65vh;
   } */
   .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
   }
   button {
     font-size: 15px;
@@ -169,7 +169,7 @@ button:hover {
 }
 @media screen and (max-width: 320px) {
   .hero-text h1 {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
   }
 }
 </style>

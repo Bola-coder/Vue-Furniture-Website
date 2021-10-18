@@ -55,11 +55,11 @@ nav a:hover {
 
 @media screen and (max-width: 425px) {
   nav {
-    padding: 10px;
+    padding: 12px;
   }
 
   nav a {
-    padding: 8px 12px;
+    padding: 8px;
   }
 }
 </style>
