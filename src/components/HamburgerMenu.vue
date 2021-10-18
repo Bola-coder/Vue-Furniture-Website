@@ -52,4 +52,14 @@ nav a:hover {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 425px) {
+  nav {
+    padding: 10px;
+  }
+
+  nav a {
+    padding: 8px 12px;
+  }
+}
 </style>
