@@ -5,8 +5,8 @@
         <p>Quick Links</p>
         <router-link to="/">Home</router-link> <br />
         <router-link to="/about">About</router-link> <br />
-        <router-link to="">Service</router-link> <br />
-        <router-link to="">Contact</router-link> <br />
+        <router-link to="/service">Service</router-link> <br />
+        <router-link to="/contact">Contact</router-link> <br />
       </div>
       <div class="footer-media">
         <p>Socials</p>
