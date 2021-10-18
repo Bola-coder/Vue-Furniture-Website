@@ -107,6 +107,12 @@ nav a:hover {
   } */
 }
 
+@media screen and (max-width: 425px) {
+  .nav {
+    max-height: 10vh;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .logo {
     margin-left: 10px;

@@ -156,9 +156,9 @@ button:hover {
   }
 }
 @media screen and (max-width: 375px) {
-  .home {
+  /* .home {
     height: 65vh;
-  }
+  } */
   .hero-text h1 {
     font-size: 2.5rem;
   }
