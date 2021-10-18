@@ -60,6 +60,7 @@ nav a:hover {
 
   nav a {
     padding: 8px;
+    font-size: 1.5rem;
   }
 }
 </style>

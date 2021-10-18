@@ -142,6 +142,9 @@ button:hover {
 }
 
 @media screen and (max-width: 425px) {
+  .heroSection {
+    top: 16%;
+  }
   .hero-text h1 {
     font-size: 3rem;
   }

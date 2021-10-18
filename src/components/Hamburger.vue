@@ -37,4 +37,10 @@ export default {
 img {
   width: 60px;
 }
+
+@media screen and (max-width: 425px) {
+  img {
+    width: 45px;
+  }
+}
 </style>
